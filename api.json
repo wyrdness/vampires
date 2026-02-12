@@ -1,0 +1,316 @@
+{
+  "category": "FOLKLORE_ENTITY",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2025-12-15",
+    "repository": "https://github.com/wyrdness/vampires",
+    "maintainers": [{"name": "Wyrdness Team", "github": "wyrdness", "role": "maintainer"}],
+    "license": {"data": "CC0-1.0", "content": "CC-BY-4.0"}
+  },
+  "phenomenon": {
+    "id": "vampires",
+    "name": "Vampires",
+    "aliases": [
+      {"name": "Vampire", "language": "English", "meaning": "Blood-drinking undead"},
+      {"name": "Vampir", "language": "Serbian/German", "meaning": "Original Slavic form"},
+      {"name": "Upir/Upyr", "language": "Slavic", "meaning": "Early Slavic vampire term"},
+      {"name": "Strigoi", "language": "Romanian", "meaning": "Romanian vampire; troubled soul"},
+      {"name": "Vrykolakas", "language": "Greek", "meaning": "Greek vampire/revenant"},
+      {"name": "Nosferatu", "language": "Romanian (disputed)", "meaning": "Popularized by film; disputed etymology"},
+      {"name": "Jiangshi", "language": "Chinese", "meaning": "Chinese hopping vampire/corpse"},
+      {"name": "Vetala", "language": "Sanskrit", "meaning": "Indian vampire spirit"},
+      {"name": "Aswang", "language": "Filipino", "meaning": "Filipino shape-shifting vampire"}
+    ],
+    "category": "FOLKLORE_ENTITY",
+    "subcategory": "Undead / Blood-Drinking Entity",
+    "tags": ["vampire", "undead", "blood", "folklore", "immortal", "shapeshifter", "nocturnal", "eastern-europe", "worldwide"],
+    "status": "folklore (no verified modern sightings)",
+    "description": {
+      "summary": "Legendary creatures that subsist by feeding on blood of the living. Found in folklore worldwide with significant variation. The modern vampire concept crystallized from Eastern European traditions in the 18th century.",
+      "full": "Vampires are undead or supernatural beings that survive by consuming the blood or life force of the living. While blood-drinking entities appear in folklore worldwide, the modern vampire concept emerged primarily from Eastern European (especially Slavic and Romanian) traditions during the 18th century, when vampire hysteria led to official investigations and corpse exhumations. The 19th century literary vampire (Polidori, Le Fanu, Stoker) transformed folklore into the aristocratic seducer archetype. Vampire belief was historically connected to misunderstanding of decomposition, premature burial, and disease outbreaks. Though no verified vampires have been documented, the legend remains powerful in global culture."
+    },
+    "etymology": {
+      "origin": "Uncertain; possibly from Serbian 'vampir' or earlier Slavic roots. First recorded in English in 1734.",
+      "meaning": "Blood-drinking revenant or undead creature",
+      "first_use": "Serbian 'vampir' documented 1725; English 'vampire' 1734"
+    }
+  },
+  "classification": {
+    "taxonomy": {
+      "category": "FOLKLORE_ENTITY",
+      "type": "Undead / Supernatural Being",
+      "subtype": "Blood-Drinking Entity",
+      "variant": "Multiple regional traditions worldwide"
+    },
+    "related_phenomena": [
+      {"id": "ghosts", "name": "Ghosts", "relationship": "related", "description": "Revenants share characteristics with ghost beliefs"},
+      {"id": "demons", "name": "Demons", "relationship": "related", "description": "Vampires often associated with demonic influence"},
+      {"id": "werewolves", "name": "Werewolves", "relationship": "related", "description": "Often linked in folklore; can become vampire after death"}
+    ],
+    "vampire_types": {
+      "description": "Regional and folkloric vampire variations",
+      "types": [
+        {
+          "name": "Slavic Vampire",
+          "region": "Eastern Europe",
+          "description": "Corpse reanimated, often bloated appearance, returns to feed on family",
+          "characteristics": ["Bloated body", "Ruddy complexion", "Feeds on family first", "Stakes through heart", "Decapitation"]
+        },
+        {
+          "name": "Strigoi",
+          "region": "Romania",
+          "description": "Two types: strigoi vii (living) and strigoi mort (undead)",
+          "characteristics": ["Red hair/eyes considered signs", "Troubled dead become strigoi", "Can be living or dead"]
+        },
+        {
+          "name": "Vrykolakas",
+          "region": "Greece",
+          "description": "Undead that spreads plague and knocks on doors",
+          "characteristics": ["Associated with plague", "Knocks on doors", "Do not answer first knock"]
+        },
+        {
+          "name": "Jiangshi",
+          "region": "China",
+          "description": "Reanimated corpse that hops and absorbs qi (life force)",
+          "characteristics": ["Hops due to rigor mortis", "Absorbs qi not blood", "Repelled by sticky rice", "Taoist talismans effective"]
+        },
+        {
+          "name": "Vetala",
+          "region": "India",
+          "description": "Spirit that inhabits corpses; can possess living",
+          "characteristics": ["Inhabits corpses", "Hangs upside down from trees", "Associated with cremation grounds"]
+        },
+        {
+          "name": "Aswang",
+          "region": "Philippines",
+          "description": "Shape-shifting creature; multiple subtypes",
+          "characteristics": ["Transforms at night", "Detachable upper body", "Preys on pregnant women", "Repelled by garlic, salt"]
+        },
+        {
+          "name": "Penanggalan",
+          "region": "Malaysia/Indonesia",
+          "description": "Detached female head with dangling entrails",
+          "characteristics": ["Head detaches at night", "Entrails trail behind", "Preys on newborns", "Must return to body by dawn"]
+        }
+      ]
+    }
+  },
+  "characteristics": {
+    "physical": {
+      "coloration": ["pale (literary)", "ruddy/bloated (folklore)", "varies by tradition"],
+      "features": [
+        {"feature": "Fangs", "description": "Elongated canine teeth for blood extraction (literary addition)", "frequency": "common (modern)"},
+        {"feature": "Pallor", "description": "Pale, corpse-like complexion (literary tradition)", "frequency": "common (modern)"},
+        {"feature": "Bloated appearance", "description": "Swollen with blood (traditional folklore)", "frequency": "common (historical)"},
+        {"feature": "Red eyes", "description": "Sign of vampirism in some traditions", "frequency": "occasional"},
+        {"feature": "No reflection", "description": "Cannot be seen in mirrors (literary addition)", "frequency": "common (modern)"},
+        {"feature": "Cold skin", "description": "Lack of body heat", "frequency": "common"}
+      ],
+      "morphology": "Traditional folklore vampires were often described as bloated, ruddy corpses rather than the pale aristocrats of fiction. Modern depictions range from monstrous to supernaturally beautiful. Many traditions include shape-shifting ability."
+    },
+    "abilities": [
+      {"ability": "Blood consumption", "description": "Feeds on blood to survive and gain strength", "frequency": "always", "evidence_level": "folklore"},
+      {"ability": "Immortality", "description": "Does not age; potentially eternal life", "frequency": "common", "evidence_level": "folklore"},
+      {"ability": "Superhuman strength", "description": "Greater physical power than humans", "frequency": "common", "evidence_level": "folklore"},
+      {"ability": "Shape-shifting", "description": "Transform into bats, wolves, mist (varies by tradition)", "frequency": "common", "evidence_level": "folklore"},
+      {"ability": "Hypnosis/Mesmerism", "description": "Ability to control or entrance victims", "frequency": "common", "evidence_level": "folklore"},
+      {"ability": "Regeneration", "description": "Heal from wounds rapidly", "frequency": "common", "evidence_level": "folklore"},
+      {"ability": "Wall climbing", "description": "Ability to climb vertical surfaces", "frequency": "occasional", "evidence_level": "folklore"},
+      {"ability": "Creating vampires", "description": "Transform victims into vampires through bite", "frequency": "common", "evidence_level": "folklore"}
+    ],
+    "weaknesses": [
+      {"weakness": "Sunlight", "description": "Destroyed or weakened by sunlight (literary; not all traditions)", "tradition": "Modern/Literary"},
+      {"weakness": "Garlic", "description": "Repelled by garlic", "tradition": "Eastern European"},
+      {"weakness": "Holy symbols", "description": "Crosses, holy water cause pain/repulsion", "tradition": "Christian Europe"},
+      {"weakness": "Stakes", "description": "Wooden stake through heart destroys vampire", "tradition": "Widespread"},
+      {"weakness": "Decapitation", "description": "Removing head prevents return", "tradition": "Widespread"},
+      {"weakness": "Fire", "description": "Burning destroys vampire", "tradition": "Widespread"},
+      {"weakness": "Running water", "description": "Cannot cross running water", "tradition": "Various"},
+      {"weakness": "Invitation required", "description": "Must be invited to enter dwelling", "tradition": "Various"},
+      {"weakness": "Counting compulsion", "description": "Must count scattered seeds/grains", "tradition": "Eastern European"},
+      {"weakness": "Silver", "description": "Silver weapons effective", "tradition": "Some traditions"}
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "predatory",
+      "social_structure": "varies (solitary to covens)",
+      "habitat_preference": ["graves", "crypts", "castles", "dark places"],
+      "patterns": ["Feeds primarily at night", "Often returns to family first", "Creates new vampires", "May seduce victims"]
+    }
+  },
+  "distribution": {
+    "range": {
+      "description": "Vampire legends exist in virtually every culture worldwide, though specific characteristics vary greatly.",
+      "continents": ["Europe", "Asia", "Africa", "Americas", "Oceania"],
+      "countries": ["All countries have blood-drinking entity legends"],
+      "regions": ["Eastern Europe (primary modern vampire source)", "Asia", "Worldwide"]
+    },
+    "hotspots": [
+      {
+        "name": "Transylvania",
+        "location": {"description": "Historical region in Romania", "country": "Romania", "region": "Transylvania"},
+        "sighting_count": 0,
+        "peak_period": "Historical",
+        "notes": "Associated with Dracula; major vampire tourism destination"
+      },
+      {
+        "name": "Serbia",
+        "location": {"description": "Origin of documented vampire hysteria", "country": "Serbia", "region": "Balkans"},
+        "sighting_count": 0,
+        "peak_period": "1725-1732",
+        "notes": "Cases of Petar Blagojevich and Arnold Paole investigated officially"
+      },
+      {
+        "name": "New England, USA",
+        "location": {"description": "19th century vampire panic region", "country": "United States", "region": "New England"},
+        "sighting_count": 0,
+        "peak_period": "1790-1892",
+        "notes": "Tuberculosis outbreaks led to vampire beliefs and corpse exhumations"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {"date": "Ancient", "circa": true, "source": "Blood-drinking entities in Mesopotamian, Greek, and other ancient texts"},
+      "peak_activity_periods": [
+        {"period": "Ancient", "description": "Blood demons in various mythologies"},
+        {"period": "1725-1732", "description": "Serbian vampire hysteria; official investigations"},
+        {"period": "1819", "description": "Polidori's 'The Vampyre' - literary vampire born"},
+        {"period": "1897", "description": "Stoker's 'Dracula' defines modern vampire"},
+        {"period": "1970s-present", "description": "Modern vampire fiction explosion"}
+      ],
+      "seasonal_patterns": "No seasonal pattern in folklore; traditionally associated with death/winter"
+    }
+  },
+  "history": {
+    "origins": {
+      "cultural_roots": "Blood-drinking spirits appear in ancient Mesopotamian, Hebrew, Greek, and Roman texts. Modern vampire emerged from Slavic folklore when Eastern European territories came under Habsburg control.",
+      "earliest_accounts": "Mesopotamian demons like Lamashtu and Lilitu; Greek Empusa and Lamia; Roman Strix. However, the term 'vampire' and modern concept is Slavic in origin.",
+      "folklore_connections": "Vampires connect to universal fears about death, the corpse, and disease. Often linked to improper burial, suicide, or violent death."
+    },
+    "timeline": [
+      {"date": "Ancient", "event": "Blood-drinking demons in various cultures", "significance": "Lilith, Lamia, Empusa, and similar entities in mythology"},
+      {"date": "1047", "event": "First use of 'Upir'", "significance": "Russian priest called a prince 'Upir Lichy' (wicked vampire)"},
+      {"date": "1725", "event": "Petar Blagojevich case", "significance": "Serbian villager; official investigation by Austrian authorities"},
+      {"date": "1732", "event": "Arnold Paole case", "significance": "Serbian soldier; extensive documentation; term 'vampire' spreads"},
+      {"date": "1746", "event": "Dom Calmet's treatise", "significance": "Scholarly work spread vampire concept across Europe"},
+      {"date": "1819", "event": "Polidori's 'The Vampyre'", "significance": "First modern vampire fiction; aristocratic seducer archetype"},
+      {"date": "1872", "event": "Le Fanu's 'Carmilla'", "significance": "Influential female vampire novella"},
+      {"date": "1897", "event": "Stoker's 'Dracula'", "significance": "Defines modern vampire; Transylvania connection"},
+      {"date": "1922", "event": "Nosferatu film", "significance": "First vampire film (unauthorized Dracula)"},
+      {"date": "1931", "event": "Universal's Dracula", "significance": "Bela Lugosi defines visual vampire"},
+      {"date": "1976", "event": "Anne Rice's Interview", "significance": "Sympathetic, romantic vampire; modern era begins"},
+      {"date": "1992", "event": "New England exhumation", "significance": "Mercy Brown case investigated; final US vampire panic"}
+    ],
+    "modern_era": "Vampires are among the most popular supernatural beings in modern fiction, from Anne Rice's romantic vampires to YA series like Twilight. Academic vampire studies examine folklore origins and cultural meanings. No verified vampire encounters have been documented, though vampire subcultures (both lifestyle and those claiming to be 'real vampires' who drink blood) exist."
+  },
+  "sightings": {
+    "statistics": {
+      "total_documented": 100,
+      "verified": 0,
+      "disputed": 50,
+      "debunked": 50,
+      "date_range": {"earliest": "1725", "latest": "1892"}
+    },
+    "notable": [
+      {
+        "id": "vampire-case-blagojevich",
+        "name": "Petar Blagojevich Case",
+        "date": {"value": "1725", "precision": "year"},
+        "location": {"description": "Kisilova (Kisiljevo), Serbia", "country": "Serbia", "region": "Balkans"},
+        "witnesses": {"count": 50, "types": ["Village officials", "Austrian authorities"]},
+        "description": "Serbian peasant who died and allegedly returned to attack villagers, causing nine deaths in eight days. Austrian authorities investigated and documented the case. The corpse was exhumed, found in suspiciously fresh condition, staked, and burned. This case brought 'vampire' into wider European consciousness.",
+        "evidence": ["Official Austrian report", "Multiple witness testimony", "Exhumation documentation"],
+        "credibility": {"rating": "documented", "factors": ["Official investigation", "Contemporary records"], "notes": "Real investigation; vampirism attributed to misunderstood decomposition"},
+        "featured": true
+      },
+      {
+        "id": "vampire-case-paole",
+        "name": "Arnold Paole Case",
+        "date": {"value": "1732", "precision": "year"},
+        "location": {"description": "Medvegja, Serbia", "country": "Serbia", "region": "Balkans"},
+        "witnesses": {"count": 100, "types": ["Villagers", "Military physicians", "Austrian officials"]},
+        "description": "Serbian soldier who claimed he had been attacked by a vampire in Kosovo. After his death, villagers blamed him for deaths and livestock attacks. Austrian military physicians investigated, exhumed multiple bodies, and documented findings. Report circulated throughout Europe.",
+        "evidence": ["Official medical report", "Multiple exhumations documented", "Contemporary records"],
+        "credibility": {"rating": "documented", "factors": ["Medical investigation", "Extensive documentation"], "notes": "Case sparked European vampire debate; likely tuberculosis outbreak"},
+        "featured": true
+      },
+      {
+        "id": "vampire-case-mercy-brown",
+        "name": "Mercy Brown Case",
+        "date": {"value": "1892", "precision": "year"},
+        "location": {"description": "Exeter, Rhode Island", "country": "United States", "region": "New England"},
+        "witnesses": {"count": 20, "types": ["Family", "Townspeople", "Doctor"]},
+        "description": "Final documented New England vampire case. Mercy Brown died of tuberculosis at 19. When her brother fell ill, townspeople exhumed her body (and her mother and sister). Mercy's body showed less decomposition due to winter burial. Her heart was burned and fed to her dying brother. He died anyway.",
+        "evidence": ["Contemporary newspaper accounts", "Exhumation records", "Doctor's account"],
+        "credibility": {"rating": "documented", "factors": ["Well-documented event", "Multiple sources"], "notes": "Real event; tuberculosis mistaken for vampirism"},
+        "featured": true
+      }
+    ],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "documentary": [
+      {"id": "vampire-evidence-austria", "type": "official reports", "name": "Austrian Vampire Investigation Reports", "description": "Official government and military documentation of vampire investigations 1725-1732", "status": "historical record"},
+      {"id": "vampire-evidence-calmet", "type": "treatise", "name": "Dom Calmet's Treatise on Vampires", "description": "1746 scholarly compilation of vampire accounts", "status": "historical record"},
+      {"id": "vampire-evidence-exhumations", "type": "records", "name": "Exhumation Records", "description": "Various documented vampire-related exhumations in Europe and New England", "status": "historical record"}
+    ]
+  },
+  "theories": {
+    "paranormal": [
+      {"name": "Undead existence", "description": "Vampires are real supernatural beings, reanimated corpses or immortal predators", "proponents": ["Various believers"], "evidence_cited": ["Historical accounts", "Cross-cultural consistency"]}
+    ],
+    "scientific": [
+      {"name": "Decomposition misunderstanding", "description": "Bloating, blood at mouth, and other decomposition signs misinterpreted as vampirism", "proponents": ["Paul Barber", "Forensic scientists"], "evidence_cited": ["Body examined before and after death shows these natural changes"]},
+      {"name": "Premature burial", "description": "People buried alive emerged from graves, inspiring vampire legends", "proponents": ["Various historians"], "evidence_cited": ["Safety coffins invented", "Documented premature burial cases"]},
+      {"name": "Contagious disease", "description": "Tuberculosis, plague, and rabies outbreaks misinterpreted as vampire attacks", "proponents": ["Medical historians"], "evidence_cited": ["New England vampire panic during TB epidemic", "Disease spread patterns match 'vampire' attacks"]},
+      {"name": "Porphyria", "description": "Blood disorder causes photosensitivity and other symptoms resembling vampire traits", "proponents": ["David Dolphin (disputed)"], "evidence_cited": ["Symptom overlap", "However, theory now largely rejected"]},
+      {"name": "Rabies", "description": "Rabies symptoms (light sensitivity, aggression, biting) inspired vampire legends", "proponents": ["Juan Gomez-Alonso"], "evidence_cited": ["Symptom correlation", "Eastern European rabies endemic areas"]}
+    ],
+    "skeptical": [
+      {"name": "Cultural construct", "description": "Vampires are folklore created to explain death, disease, and psychological fears", "proponents": ["Folklore scholars"], "evidence_cited": ["Cross-cultural death anxiety", "Disease attribution patterns", "Social scapegoating"]}
+    ]
+  },
+  "cultural": {
+    "folklore": {
+      "traditions": ["Slavic vampire traditions", "Romanian strigoi", "Greek vrykolakas", "Chinese jiangshi", "Filipino aswang", "Numerous worldwide variants"],
+      "stories": ["Dracula", "Carmilla", "Varney the Vampire", "Interview with the Vampire"],
+      "beliefs": "Vampire beliefs historically served to explain death, disease outbreaks, and decomposition. Prevention methods included proper burial rites, staking suspected vampires, and various apotropaic practices."
+    },
+    "indigenous": {
+      "cultures": ["Blood-drinking entities exist in indigenous traditions worldwide"],
+      "significance": "Many cultures have vampire-like beings integrated into their spiritual worldview",
+      "sensitivity_note": "Indigenous vampire-like entities should be understood within their cultural context",
+      "respect_guidelines": "Avoid conflating diverse cultural entities into single 'vampire' category"
+    },
+    "popular_culture": {
+      "literature": ["Dracula (Bram Stoker)", "Interview with the Vampire (Anne Rice)", "Salem's Lot (Stephen King)", "Twilight series", "'Salem's Lot", "The Historian"],
+      "film_tv": ["Nosferatu (1922)", "Dracula (1931)", "Interview with the Vampire", "Buffy the Vampire Slayer", "True Blood", "What We Do in the Shadows", "Twilight films"],
+      "games": ["Vampire: The Masquerade", "Castlevania series", "Legacy of Kain"],
+      "other": ["Vampire tourism in Romania", "Vampire lifestyle subculture", "Vampire LARP communities", "Real vampires (sanguinarians) subculture"]
+    }
+  },
+  "research": {
+    "researchers": [
+      {"name": "Dom Augustin Calmet", "affiliation": "Benedictine monk", "contribution": "First systematic compilation of vampire accounts", "period": "1746"},
+      {"name": "Paul Barber", "affiliation": "UCLA", "contribution": "Vampires, Burial, and Death - forensic explanation of vampire beliefs", "period": "1988"},
+      {"name": "David Keyworth", "affiliation": "Historian", "contribution": "Academic study of vampire folklore", "period": "Modern"},
+      {"name": "J. Gordon Melton", "affiliation": "Religious studies scholar", "contribution": "The Vampire Book encyclopedia", "period": "Modern"}
+    ],
+    "organizations": [
+      {"name": "Vampire Studies", "focus": "Academic study of vampire in culture and history"},
+      {"name": "Transylvanian Society of Dracula", "focus": "Scholarly organization studying Dracula and vampire folklore"}
+    ],
+    "ongoing_studies": "Academic vampire studies continue in folklore, literature, film studies, and cultural anthropology. No scientific investigation of 'real vampires' is conducted, though the sanguinarian subculture has been studied sociologically."
+  },
+  "sources": [
+    {"id": "barber-1988", "type": "book", "title": "Vampires, Burial, and Death: Folklore and Reality", "authors": ["Paul Barber"], "publication": "Yale University Press", "date": "1988", "isbn": "978-0300048599"},
+    {"id": "melton-1999", "type": "book", "title": "The Vampire Book: The Encyclopedia of the Undead", "authors": ["J. Gordon Melton"], "publication": "Visible Ink Press", "date": "1999"},
+    {"id": "skal-1990", "type": "book", "title": "Hollywood Gothic: The Tangled Web of Dracula from Novel to Stage to Screen", "authors": ["David J. Skal"], "publication": "W.W. Norton", "date": "1990"},
+    {"id": "calmet-1746", "type": "treatise", "title": "Treatise on the Apparitions of Spirits and on Vampires", "authors": ["Dom Augustin Calmet"], "date": "1746", "notes": "Historical primary source"}
+  ]
+}
